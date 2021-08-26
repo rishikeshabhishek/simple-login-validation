@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Validation</title>
+    <link rel="stylesheet" href="myCSS/style.css">
+</head>
+
+<body>
+    <div class="formDiv">
+        <form action="" id="regForm">
+            <label>Full Name</label>
+            <input type="text" name="txtFullName" id="txtFullName">
+            <label>Username</label>
+            <input type="text" name="txtUsername" id="txtUsername">
+            <label>Password</label>
+            <input type="password" name="txtPassword" id="txtPassword">
+            <input type="submit" value="Register">
+        </form>
+    </div>
+    <ul class="warning">
+        <li>Username Must Be Greater Than 5 Characters</li>
+        <li>Password Must Be Greater Than 8 Characters</li>
+        <li>Password Must Be Contain Atleast One Uppercase, One Lowercase, One Special Character, One Number</li>
+        <!-- <li>Password Must Not Be Contain Your First Name Or Last Name</li> -->
+    </ul>
+    <script src="myJS/app.js"></script>
+</body>
+
+</html>

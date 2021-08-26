@@ -1,0 +1,25 @@
+.warning {
+    color: red;
+}
+
+.warning li {
+    list-style-type: none;
+}
+
+.warning li::before {
+    content: "✗ ";
+    font-weight: bold;
+}
+
+.success {
+    color: green;
+}
+
+.success li {
+    list-style-type: none;
+}
+
+li.success::before {
+    content: "✔ ";
+    font-weight: bold;
+}
